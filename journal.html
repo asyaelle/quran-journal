@@ -1,0 +1,43 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title>QuranJournal - My Journal</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header>
+    <h1>My Journal</h1>
+    <nav>
+      <button id="btn-back">Surah List</button>
+    </nav>
+  </header>
+
+  <main>
+    <section id="selected-surah">
+      <h2 id="surah-title">No surah selected</h2>
+      <div id="surah-meta"></div>
+    </section>
+
+    <section id="entry-form">
+      <h3>Add / Update Entry</h3>
+      <label>Ayahs completed: <input id="ayahs" type="number" min="0" /></label>
+      <label>Notes (self-reflection):</label>
+      <textarea id="notes"></textarea>
+      <button id="save">Save</button>
+      <button id="delete">Delete Entry</button>
+    </section>
+
+    <section id="journal-list">
+      <h3>Saved Journal Entries</h3>
+      <ul id="entries"></ul>
+    </section>
+  </main>
+
+  <footer>
+    <small>Entries stored locally (localStorage) — export sample JSON as required.</small>
+  </footer>
+
+  <script src="journal_renderer.js"></script>
+</body>
+</html>

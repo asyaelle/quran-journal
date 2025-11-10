@@ -1,0 +1,16 @@
+{
+  "1": {
+    "surahNumber": 1,
+    "surahName": "Al-Fatihah",
+    "ayahsCompleted": 7,
+    "notes": "Short reflection: Seek guidance and mercy every morning.",
+    "updatedAt": "2025-11-09T21:00:00.000Z"
+  },
+  "112": {
+    "surahNumber": 112,
+    "surahName": "Al-Ikhlas",
+    "ayahsCompleted": 4,
+    "notes": "Love for the oneness of Allah, memorize with family.",
+    "updatedAt": "2025-11-08T10:00:00.000Z"
+  }
+}

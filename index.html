@@ -1,0 +1,30 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title>QuranJournal - Surah List</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header>
+    <h1>QuranJournal</h1>
+    <nav>
+      <button id="btn-journal">My Journal</button>
+      <input id="search" placeholder="Search surah by name..." />
+    </nav>
+  </header>
+
+  <main>
+    <section id="surah-list">
+      <p id="loading">Loading surah list...</p>
+      <ul id="list"></ul>
+    </section>
+  </main>
+
+  <footer>
+    <small>Data from api.alquran.cloud — Surah list.</small>
+  </footer>
+
+  <script src="renderer.js"></script>
+</body>
+</html>
